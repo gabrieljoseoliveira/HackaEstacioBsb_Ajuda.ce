@@ -6,3 +6,5 @@ Com o advento da pandemia do coronavírus, surgiu a necessidade do isolamento so
 
 "Eu não posso mudar o mundo, mas posso mudar a vida de alguém."
 Frase de Mario Fortuna
+
+Link: https://gjoliveira.github.io/HackaEstacioBsb_Ajuda.ce/
