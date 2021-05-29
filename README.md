@@ -8,3 +8,5 @@ Com o advento da pandemia do coronavírus, surgiu a necessidade do isolamento so
 Frase de Mario Fortuna
 
 Link: https://gjoliveira.github.io/HackaEstacioBsb_Ajuda.ce/
+
+![Visão geral da ideia](/ideia.png)
