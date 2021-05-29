@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size:20px;
+    text-align:center;
+    background: linear-gradient(to bottom, var(--oceano4), var(--azul6) 130%);
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.a3 {
+
+    grid-template-columns: 1fr 1fr;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 2rem 25%;
+    width: 50%;
+    min-height: 85vh;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.a3 button {
+    width: 65%;
+    margin: 5% 25%;
+    width: 50%
+}
+
+h2 {
+    color: var(--verde1);
+    margin-top: 30px;
+}
+
+button {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: var(--branco);
+    text-decoration: none;
+    background: linear-gradient(to bottom, var(--oceano4), var(--azul6) 130%);
+    padding:10px 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.15s ease 0s;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 2rem;
+}
+
+button:active{
+    position: relative;
+    top:3px;
+    left:2px;
+    box-shadow: 0px 0px;
+}
+
+button:hover{
+    background-color: #fff;
+    color:var(--verde3);
+    font-weight: bold;
+}
+
+form input, form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 0.15rem solid var(--verde3);
+}
+
+select {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+select:focus {
+    outline: 0.15rem solid var(--verde3);
+}
+
+tr {
+    text-align: left;
+}
